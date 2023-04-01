@@ -370,6 +370,11 @@ body {
 .costumes-icon {
   fill: #8e8f99;
 }
+.costumers-item:hover,
+.costumers-item:focus {
+  border-color: var(--accent-color);
+}
+
 .costumers-link:hover > .costumes-icon,
 .costumers-link:focus > .costumes-icon {
   fill: var(--accent-color);
@@ -441,7 +446,7 @@ body {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: grey;
   border-radius: 50%;
 }
 .footer-item:hover,
@@ -469,6 +474,7 @@ body {
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 /**portfolio button  */
@@ -510,12 +516,14 @@ body {
   align-items: center;
   gap: 48px 24px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .work-portfolio-list {
   border: 1px solid #e7e9fc;
-  border-top: none;
-
   width: calc((100% - 48px) / 3);
+  display: flex;
+  justify-content: center;
+  border-top: none;
 }
 .work-portfolio-list:hover,
 .work-portfolio-list:focus {
@@ -544,5 +552,5 @@ body {
   padding-bottom: 32px;
 }
 .work-portfolio-img {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
