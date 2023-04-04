@@ -446,7 +446,7 @@ body {
   align-items: center;
   width: 40px;
   height: 40px;
-  background-color: grey;
+  background-color: #434455;
   border-radius: 50%;
 }
 .footer-item:hover,
